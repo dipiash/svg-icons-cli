@@ -1,2 +1,32 @@
 node_modules
 .DS_Store
+.idea
+.vscode
+
+# Local History for Visual Studio Code
+.history/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# npm pack artifacts
+*.tgz
